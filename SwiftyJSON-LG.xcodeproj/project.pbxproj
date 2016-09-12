@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F7779639336F1EBD5838450 /* Pods_SwiftyJSON_LG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 319BB1404893FC64E5A1D750 /* Pods_SwiftyJSON_LG.framework */; };
 		EB627E8D1D863ABC003D3730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB627E8C1D863ABC003D3730 /* AppDelegate.swift */; };
 		EB627E8F1D863ABC003D3730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB627E8E1D863ABC003D3730 /* ViewController.swift */; };
 		EB627E921D863ABC003D3730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB627E901D863ABC003D3730 /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		319BB1404893FC64E5A1D750 /* Pods_SwiftyJSON_LG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyJSON_LG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C3B562775E2441179E188D /* Pods-SwiftyJSON-LG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJSON-LG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJSON-LG/Pods-SwiftyJSON-LG.debug.xcconfig"; sourceTree = "<group>"; };
 		EB627E891D863ABB003D3730 /* SwiftyJSON-LG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyJSON-LG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB627E8C1D863ABC003D3730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB627E8E1D863ABC003D3730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		EB627EA81D863ABC003D3730 /* SwiftyJSON-LGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyJSON-LGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB627EAC1D863ABC003D3730 /* SwiftyJSON_LGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_LGUITests.swift; sourceTree = "<group>"; };
 		EB627EAE1D863ABC003D3730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A714E942768DAE61946486 /* Pods-SwiftyJSON-LG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJSON-LG.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJSON-LG/Pods-SwiftyJSON-LG.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7779639336F1EBD5838450 /* Pods_SwiftyJSON_LG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76B56396A5FEBF34285C40AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3B562775E2441179E188D /* Pods-SwiftyJSON-LG.debug.xcconfig */,
+				F6A714E942768DAE61946486 /* Pods-SwiftyJSON-LG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB627E801D863ABB003D3730 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +95,8 @@
 				EB627EA01D863ABC003D3730 /* SwiftyJSON-LGTests */,
 				EB627EAB1D863ABC003D3730 /* SwiftyJSON-LGUITests */,
 				EB627E8A1D863ABB003D3730 /* Products */,
+				76B56396A5FEBF34285C40AA /* Pods */,
+				F57A8DFF3550189D825A647A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +141,14 @@
 			path = "SwiftyJSON-LGUITests";
 			sourceTree = "<group>";
 		};
+		F57A8DFF3550189D825A647A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				319BB1404893FC64E5A1D750 /* Pods_SwiftyJSON_LG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB627EB11D863ABC003D3730 /* Build configuration list for PBXNativeTarget "SwiftyJSON-LG" */;
 			buildPhases = (
+				ED5FDCC6EB582BD1167512A2 /* [CP] Check Pods Manifest.lock */,
 				EB627E851D863ABB003D3730 /* Sources */,
 				EB627E861D863ABB003D3730 /* Frameworks */,
 				EB627E871D863ABB003D3730 /* Resources */,
+				3D3630D3255C32C75DDC3E3F /* [CP] Embed Pods Frameworks */,
+				CF52A520E536A4C38F6953F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3630D3255C32C75DDC3E3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyJSON-LG/Pods-SwiftyJSON-LG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF52A520E536A4C38F6953F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyJSON-LG/Pods-SwiftyJSON-LG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED5FDCC6EB582BD1167512A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB627E851D863ABB003D3730 /* Sources */ = {
@@ -399,6 +474,7 @@
 		};
 		EB627EB21D863ABC003D3730 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C3B562775E2441179E188D /* Pods-SwiftyJSON-LG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SwiftyJSON-LG/Info.plist";
@@ -410,6 +486,7 @@
 		};
 		EB627EB31D863ABC003D3730 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A714E942768DAE61946486 /* Pods-SwiftyJSON-LG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SwiftyJSON-LG/Info.plist";
@@ -484,6 +561,7 @@
 				EB627EB31D863ABC003D3730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB627EB41D863ABC003D3730 /* Build configuration list for PBXNativeTarget "SwiftyJSON-LGTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +570,7 @@
 				EB627EB61D863ABC003D3730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB627EB71D863ABC003D3730 /* Build configuration list for PBXNativeTarget "SwiftyJSON-LGUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +579,7 @@
 				EB627EB91D863ABC003D3730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

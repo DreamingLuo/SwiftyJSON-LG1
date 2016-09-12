@@ -1,0 +1,6 @@
+framework module Pods_SwiftyJSON_LG {
+  umbrella header "Pods-SwiftyJSON-LG-umbrella.h"
+
+  export *
+  module * { export * }
+}
